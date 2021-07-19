@@ -1,6 +1,6 @@
 <?php
 
-	$con = mysqli_connect("sql212.epizy.com","epiz_28864838","sVPSsOBULoRM","epiz_28864838_chat_room");
+	$con = mysqli_connect("localhost","root","PASSWORD","DATABASE_NAME");
 	if (mysqli_connect_errno()){
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 		die();
